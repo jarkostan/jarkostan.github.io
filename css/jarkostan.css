@@ -1,0 +1,16 @@
+html { scroll-behavior: smooth; } 
+
+body { padding-top: 56px; }
+
+.bg-image-full { background: no-repeat center center scroll;
+                 -webkit-background-size: cover; -moz-background-size: cover;
+                 background-size: cover; -o-background-size: cover;
+                 min-height: 200px ;
+                 background-attachment: fixed;
+                 background-position: center;
+                 background-repeat: no-repeat;
+                 /*background-size: cover;*/ }
+
+.logo { width: 50% ; border-radius: 16px;  }
+
+p { text-align: justify ; text-justify: inter-word; }
